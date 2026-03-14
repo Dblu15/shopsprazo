@@ -1,0 +1,45 @@
+
+> sprazo-nextjs@0.1.0 build
+> next build
+
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\thaibao\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\thaibao\Documents\crawlerwebsite\sprazo-nextjs\package-lock.json
+   * C:\Users\thaibao\Documents\crawlerwebsite\package-lock.json
+
+▲ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+
+> Build error occurred
+Error: Turbopack build failed with 1 errors:
+./Documents/crawlerwebsite/sprazo-nextjs/src/app/shop/page.js:3:14
+Ecmascript file had an error
+  1 | import ShopContent from "@/components/shop/ShopContent";
+  2 |
+> 3 | export const metadata = {
+    |              ^^^^^^^^
+  4 |     title: "Shop | Sprazo - Multipurpose eCommerce",
+  5 |     description: "Browse our wide range of products at Sprazo.",
+  6 | };
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/app/api-reference/directives/use-client
+
+
+
+Import traces:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/shop/page.js [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/shop/list/page.js [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/shop/list/page.js [Server Component]
+
+  Client Component SSR:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/shop/page.js [Client Component SSR]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/shop/list/page.js [Client Component SSR]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/shop/list/page.js [Server Component]
+
+
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/app/shop/page.js:3:14)

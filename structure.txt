@@ -1,0 +1,98 @@
+
+--- about-us.html ---
+Section: .sp-breadcrumb.margin-b-50 
+Section: .sp-about.padding-tb-50 
+Section: .sp-service.padding-tb-50.aos-init 
+Section: .sp-testimonial.padding-tb-50.aos-init 
+Section: .sp-team-section.padding-tb-50 
+Section: .sp-blog.padding-tb-50.aos-init 
+Section: .sp-subscribe.padding-tb-50.aos-init 
+
+--- cart.html ---
+Section: .sp-breadcrumb-2.margin-b-50 
+Section: .sp-cart-section.padding-tb-50 
+Section: .sp-service.padding-tb-50.aos-init 
+Section: .sp-product-popular.sp-products.padding-tb-50.aos-init 
+
+--- checkout.html ---
+Section: .sp-breadcrumb-2.margin-b-50 
+Section: .sp-checkout-section.padding-tb-50 
+Section: .sp-service.padding-tb-50.aos-init 
+Section: .sp-product-popular.sp-products.padding-tb-50.aos-init 
+
+--- compare.html ---
+Section: .sp-breadcrumb-2.margin-b-50 
+Section: .sp-compare-list.padding-tb-50 
+
+--- contact-us.html ---
+Section: .sp-breadcrumb.margin-b-50 
+Section: .sp-contact.padding-tb-50 
+
+--- faq.html ---
+Section: .sp-breadcrumb.margin-b-50 
+Section: .sp-faq.padding-tb-50 
+
+--- forgot.html ---
+Section: .sp-breadcrumb.margin-b-50 
+Section: .sp-forgot.sp-login.padding-tb-50 
+
+--- index.html ---
+Section: .sp-hero-2 
+Section: .sp-label-2.m-b-50 
+Section: .sp-category-2.p-tb-50.aos-init #category
+Section: .sp-about-2.padding-tb-50 
+Section: .sp-banner-2.half-bg-2.p-t-100.p-b-50.m-t-50 
+Section: .sp-product-tab.sp-products.padding-tb-50.aos-init 
+Section: .sp-service.padding-t-50.padding-b-100.aos-init 
+Section: .sp-collection-2.padding-tb-100.aos-init 
+Section: .sp-vendor-tab.padding-t-100.padding-b-50.aos-init 
+Section: .sp-deal-2.padding-tb-50.aos-init 
+Section: .sp-product-popular.sp-products.padding-tb-50.aos-init 
+Section: .sp-testimonial.padding-tb-50.aos-init 
+Section: .sp-blog.padding-tb-50.aos-init 
+Section: .sp-subscribe.p-tb-50.aos-init 
+
+--- index_1.html ---
+Section: .sp-hero 
+Section: .sp-banner.half-bg.m-b-30 
+Section: .sp-label.m-b-50 
+Section: .sp-about.padding-tb-50 
+Section: .sp-category.m-b-50.p-t-50.aos-init #category
+Section: .sp-product-tab.sp-products.padding-tb-50.aos-init 
+Section: .sp-service.padding-t-50.padding-b-100.aos-init 
+Section: .sp-collection.padding-tb-100.aos-init 
+Section: .sp-vendor-tab.padding-t-100.padding-b-50.aos-init 
+Section: .sp-deal.padding-tb-50.aos-init 
+Section: .sp-product-popular.sp-products.padding-tb-50.aos-init 
+Section: .sp-testimonial.padding-tb-50.aos-init 
+Section: .sp-blog.padding-tb-50.aos-init 
+Section: .sp-subscribe.p-tb-50.aos-init 
+
+--- login.html ---
+Section: .sp-breadcrumb.margin-b-50 
+Section: .sp-login.padding-tb-50 
+
+--- offer.html ---
+Section: .sp-breadcrumb-2.margin-b-50 
+Section: .sp-deal.padding-tb-50.aos-init.aos-animate 
+Section: .sp-banner.padding-tb-50 
+Section: .sp-service.padding-tb-50.aos-init 
+Section: .sp-product-popular.sp-products.padding-tb-50.aos-init 
+
+--- register.html ---
+Section: .sp-breadcrumb.margin-b-50 
+Section: .sp-register.padding-tb-50 
+
+--- terms.html ---
+Section: .sp-breadcrumb.margin-b-50 
+Section: .sp-terms-conditions.padding-tb-50 
+
+--- track-order.html ---
+Section: .sp-breadcrumb-2.margin-b-50 
+Section: .sp-track-order.padding-tb-50 
+Section: .sp-service.padding-tb-50.aos-init 
+
+--- wishlist.html ---
+Section: .sp-breadcrumb-2.margin-b-50 
+Section: .sp-wishlist-list.padding-tb-50 
+Section: .sp-service.padding-tb-50.aos-init 

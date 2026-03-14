@@ -1,0 +1,1582 @@
+
+> sprazo-nextjs@0.1.0 build
+> next build
+
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\thaibao\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\thaibao\Documents\crawlerwebsite\sprazo-nextjs\package-lock.json
+   * C:\Users\thaibao\Documents\crawlerwebsite\package-lock.json
+
+▲ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+
+> Build error occurred
+Error: Turbopack build failed with 68 errors:
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:4074:22
+Module not found: Can't resolve '../fonts/14.svg'
+  4072 |   height: 20px;
+  4073 |   background-image: url("../fonts/14.svg");
+> 4074 |   background-size: 100%;
+       |                      ^
+  4075 |   position: absolute;
+  4076 |   top: 40%;
+  4077 |   right: 41px;
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:7421:22
+Module not found: Can't resolve '../fonts/14.svg'
+  7419 |   height: 20px;
+  7420 |   background-image: url("../fonts/14.svg");
+> 7421 |   background-size: 100%;
+       |                      ^
+  7422 |   position: absolute;
+  7423 |   top: 40%;
+  7424 |   right: 41px;
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:1693:11
+Module not found: Can't resolve '../fonts/18.svg'
+  1691 | .sp-header-2 .sp-mobile-menu-overlay:hover {
+  1692 |   cursor: url("../fonts/18.svg"), auto;
+> 1693 | }
+       |  ^
+  1694 |
+  1695 | .sp-header-2 .sp-mobile-menu {
+  1696 |   -webkit-transition: all 0.3s ease-in-out;
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:2752:11
+Module not found: Can't resolve '../fonts/18.svg'
+  2750 | .sp-header .sp-mobile-menu-overlay:hover {
+  2751 |   cursor: url("../fonts/18.svg"), auto;
+> 2752 | }
+       |  ^
+  2753 |
+  2754 | .sp-header .sp-mobile-menu {
+  2755 |   -webkit-transition: all 0.3s ease-in-out;
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:3241:11
+Module not found: Can't resolve '../fonts/18.svg'
+  3239 | .sp-category-popup-overlay:hover {
+  3240 |   cursor: url("../fonts/18.svg"), auto;
+> 3241 | }
+       |  ^
+  3242 |
+  3243 | .sp-category-open {
+  3244 |   -webkit-transform: translateY(0) !important;
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:4022:11
+Module not found: Can't resolve '../fonts/18.svg'
+  4020 | .sp-side-cart-overlay:hover {
+  4021 |   cursor: url("../fonts/18.svg"), auto;
+> 4022 | }
+       |  ^
+  4023 |
+  4024 | .sp-open-cart {
+  4025 |   -webkit-transform: translateX(0) !important;
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:4562:11
+Module not found: Can't resolve '../fonts/18.svg'
+  4560 | .sp-quickview-overlay:hover {
+  4561 |   cursor: url("../fonts/18.svg"), auto;
+> 4562 | }
+       |  ^
+  4563 |
+  4564 | .sp-open-quickview {
+  4565 |   -webkit-transform: translateX(0) !important;
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:5599:11
+Module not found: Can't resolve '../fonts/18.svg'
+  5597 | .filter-sidebar-overlay:hover {
+  5598 |   cursor: url("../fonts/18.svg"), auto;
+> 5599 | }
+       |  ^
+  5600 |
+  5601 | .sp-filter-sidebar {
+  5602 |   width: 400px;
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:6395:11
+Module not found: Can't resolve '../fonts/18.svg'
+  6393 | .sp-tools-sidebar-overlay:hover {
+  6394 |   cursor: url("../fonts/18.svg"), auto;
+> 6395 | }
+       |  ^
+  6396 |
+  6397 | .sp-tools-sidebar {
+  6398 |   width: 300px;
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:66:9
+Module not found: Can't resolve '../fonts/Poppins-Black.ttf'
+  64 |   font-family: "Poppins, sans-serif";
+  65 |   src: url("../fonts/Poppins-Black.ttf") format("truetype");
+> 66 |   font-weight: 900;
+     |         ^
+  67 |   font-style: normal;
+  68 | }
+  69 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:132:9
+Module not found: Can't resolve '../fonts/Poppins-Black.ttf'
+  130 |   font-family: "Poppins, sans-serif";
+  131 |   src: url("../fonts/Poppins-Black.ttf") format("truetype");
+> 132 |   font-weight: 900;
+      |         ^
+  133 |   font-style: normal;
+  134 | }
+  135 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:52:9
+Module not found: Can't resolve '../fonts/Poppins-Bold.ttf'
+  50 |   font-family: "Poppins, sans-serif";
+  51 |   src: url("../fonts/Poppins-Bold.ttf") format("truetype");
+> 52 |   font-weight: 700;
+     |         ^
+  53 |   font-style: normal;
+  54 | }
+  55 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:118:9
+Module not found: Can't resolve '../fonts/Poppins-Bold.ttf'
+  116 |   font-family: "Poppins, sans-serif";
+  117 |   src: url("../fonts/Poppins-Bold.ttf") format("truetype");
+> 118 |   font-weight: 700;
+      |         ^
+  119 |   font-style: normal;
+  120 | }
+  121 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:59:9
+Module not found: Can't resolve '../fonts/Poppins-ExtraBold.ttf'
+  57 |   font-family: "Poppins, sans-serif";
+  58 |   src: url("../fonts/Poppins-ExtraBold.ttf") format("truetype");
+> 59 |   font-weight: 800;
+     |         ^
+  60 |   font-style: normal;
+  61 | }
+  62 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:125:9
+Module not found: Can't resolve '../fonts/Poppins-ExtraBold.ttf'
+  123 |   font-family: "Poppins, sans-serif";
+  124 |   src: url("../fonts/Poppins-ExtraBold.ttf") format("truetype");
+> 125 |   font-weight: 800;
+      |         ^
+  126 |   font-style: normal;
+  127 | }
+  128 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:17:9
+Module not found: Can't resolve '../fonts/Poppins-ExtraLight.ttf'
+  15 |   font-family: "Poppins, sans-serif";
+  16 |   src: url("../fonts/Poppins-ExtraLight.ttf") format("truetype");
+> 17 |   font-weight: 200;
+     |         ^
+  18 |   font-style: normal;
+  19 | }
+  20 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:83:9
+Module not found: Can't resolve '../fonts/Poppins-ExtraLight.ttf'
+  81 |   font-family: "Poppins, sans-serif";
+  82 |   src: url("../fonts/Poppins-ExtraLight.ttf") format("truetype");
+> 83 |   font-weight: 200;
+     |         ^
+  84 |   font-style: normal;
+  85 | }
+  86 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:24:9
+Module not found: Can't resolve '../fonts/Poppins-Light.ttf'
+  22 |   font-family: "Poppins, sans-serif";
+  23 |   src: url("../fonts/Poppins-Light.ttf");
+> 24 |   font-weight: 300;
+     |         ^
+  25 |   font-style: normal;
+  26 | }
+  27 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:90:9
+Module not found: Can't resolve '../fonts/Poppins-Light.ttf'
+  88 |   font-family: "Poppins, sans-serif";
+  89 |   src: url("../fonts/Poppins-Light.ttf");
+> 90 |   font-weight: 300;
+     |         ^
+  91 |   font-style: normal;
+  92 | }
+  93 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:38:9
+Module not found: Can't resolve '../fonts/Poppins-Medium.ttf'
+  36 |   font-family: "Poppins, sans-serif";
+  37 |   src: url("../fonts/Poppins-Medium.ttf") format("truetype");
+> 38 |   font-weight: 500;
+     |         ^
+  39 |   font-style: normal;
+  40 | }
+  41 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:104:9
+Module not found: Can't resolve '../fonts/Poppins-Medium.ttf'
+  102 |   font-family: "Poppins, sans-serif";
+  103 |   src: url("../fonts/Poppins-Medium.ttf") format("truetype");
+> 104 |   font-weight: 500;
+      |         ^
+  105 |   font-style: normal;
+  106 | }
+  107 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:31:9
+Module not found: Can't resolve '../fonts/Poppins-Regular.ttf'
+  29 |   font-family: "Poppins, sans-serif";
+  30 |   src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+> 31 |   font-weight: 400;
+     |         ^
+  32 |   font-style: normal;
+  33 | }
+  34 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:97:9
+Module not found: Can't resolve '../fonts/Poppins-Regular.ttf'
+   95 |   font-family: "Poppins, sans-serif";
+   96 |   src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+>  97 |   font-weight: 400;
+      |         ^
+   98 |   font-style: normal;
+   99 | }
+  100 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:45:9
+Module not found: Can't resolve '../fonts/Poppins-SemiBold.ttf'
+  43 |   font-family: "Poppins, sans-serif";
+  44 |   src: url("../fonts/Poppins-SemiBold.ttf") format("truetype");
+> 45 |   font-weight: 600;
+     |         ^
+  46 |   font-style: normal;
+  47 | }
+  48 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:111:9
+Module not found: Can't resolve '../fonts/Poppins-SemiBold.ttf'
+  109 |   font-family: "Poppins, sans-serif";
+  110 |   src: url("../fonts/Poppins-SemiBold.ttf") format("truetype");
+> 111 |   font-weight: 600;
+      |         ^
+  112 |   font-style: normal;
+  113 | }
+  114 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:10:9
+Module not found: Can't resolve '../fonts/Poppins-Thin.ttf'
+   8 |   font-family: "Poppins, sans-serif";
+   9 |   src: url("../fonts/Poppins-Thin.ttf") format("truetype");
+> 10 |   font-weight: 100;
+     |         ^
+  11 |   font-style: normal;
+  12 | }
+  13 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:76:9
+Module not found: Can't resolve '../fonts/Poppins-Thin.ttf'
+  74 |   font-family: "Poppins, sans-serif";
+  75 |   src: url("../fonts/Poppins-Thin.ttf") format("truetype");
+> 76 |   font-weight: 100;
+     |         ^
+  77 |   font-style: normal;
+  78 | }
+  79 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:102:9
+Module not found: Can't resolve '../fonts/Quicksand-Bold.ttf'
+  100 |   font-family: "Quicksand";
+  101 |   src: url("../fonts/Quicksand-Bold.ttf") format("truetype");
+> 102 |   font-weight: 700;
+      |         ^
+  103 |   font-style: normal;
+  104 | }
+  105 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:168:9
+Module not found: Can't resolve '../fonts/Quicksand-Bold.ttf'
+  166 |   font-family: "Quicksand";
+  167 |   src: url("../fonts/Quicksand-Bold.ttf") format("truetype");
+> 168 |   font-weight: 700;
+      |         ^
+  169 |   font-style: normal;
+  170 | }
+  171 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:74:9
+Module not found: Can't resolve '../fonts/Quicksand-Light.ttf'
+  72 |   font-family: "Quicksand";
+  73 |   src: url("../fonts/Quicksand-Light.ttf") format("truetype");
+> 74 |   font-weight: 300;
+     |         ^
+  75 |   font-style: normal;
+  76 | }
+  77 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:140:9
+Module not found: Can't resolve '../fonts/Quicksand-Light.ttf'
+  138 |   font-family: "Quicksand";
+  139 |   src: url("../fonts/Quicksand-Light.ttf") format("truetype");
+> 140 |   font-weight: 300;
+      |         ^
+  141 |   font-style: normal;
+  142 | }
+  143 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:88:9
+Module not found: Can't resolve '../fonts/Quicksand-Medium.ttf'
+  86 |   font-family: "Quicksand";
+  87 |   src: url("../fonts/Quicksand-Medium.ttf") format("truetype");
+> 88 |   font-weight: 500;
+     |         ^
+  89 |   font-style: normal;
+  90 | }
+  91 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:154:9
+Module not found: Can't resolve '../fonts/Quicksand-Medium.ttf'
+  152 |   font-family: "Quicksand";
+  153 |   src: url("../fonts/Quicksand-Medium.ttf") format("truetype");
+> 154 |   font-weight: 500;
+      |         ^
+  155 |   font-style: normal;
+  156 | }
+  157 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:81:9
+Module not found: Can't resolve '../fonts/Quicksand-Regular.ttf'
+  79 |   font-family: "Quicksand";
+  80 |   src: url("../fonts/Quicksand-Regular.ttf") format("truetype");
+> 81 |   font-weight: 400;
+     |         ^
+  82 |   font-style: normal;
+  83 | }
+  84 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:147:9
+Module not found: Can't resolve '../fonts/Quicksand-Regular.ttf'
+  145 |   font-family: "Quicksand";
+  146 |   src: url("../fonts/Quicksand-Regular.ttf") format("truetype");
+> 147 |   font-weight: 400;
+      |         ^
+  148 |   font-style: normal;
+  149 | }
+  150 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:95:9
+Module not found: Can't resolve '../fonts/Quicksand-SemiBold.ttf'
+  93 |   font-family: "Quicksand";
+  94 |   src: url("../fonts/Quicksand-SemiBold.ttf") format("truetype");
+> 95 |   font-weight: 600;
+     |         ^
+  96 |   font-style: normal;
+  97 | }
+  98 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:161:9
+Module not found: Can't resolve '../fonts/Quicksand-SemiBold.ttf'
+  159 |   font-family: "Quicksand";
+  160 |   src: url("../fonts/Quicksand-SemiBold.ttf") format("truetype");
+> 161 |   font-weight: 600;
+      |         ^
+  162 |   font-style: normal;
+  163 | }
+  164 |
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/remixicon.css:4:9
+Module not found: Can't resolve '../fonts/remixicon.eot'
+  2 |   font-family: "remixicon";
+  3 |   src: url("../fonts/remixicon.eot"); /* IE9*/
+> 4 |   src: url("../fonts/remixicon.eot#iefix") format('embedded-opentype'), 
+    |         ^
+  5 |   url("../fonts/remixicon.woff2") format("woff2"), 
+  6 |   url("../fonts/remixicon.woff") format("woff"), 
+  7 |   url("../fonts/remixicon.ttf") format('truetype'), 
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/remixicon.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/remixicon.css:5:9
+Module not found: Can't resolve '../fonts/remixicon.eot'
+  3 |   src: url("../fonts/remixicon.eot"); /* IE9*/
+  4 |   src: url("../fonts/remixicon.eot#iefix") format('embedded-opentype'), 
+> 5 |   url("../fonts/remixicon.woff2") format("woff2"), 
+    |         ^
+  6 |   url("../fonts/remixicon.woff") format("woff"), 
+  7 |   url("../fonts/remixicon.ttf") format('truetype'), 
+  8 |   url("../fonts/remixicon.svg#remixicon") format('svg'); /* iOS 4.1- */
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/remixicon.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/remixicon.css:9:4
+Module not found: Can't resolve '../fonts/remixicon.svg'
+   7 |   url("../fonts/remixicon.ttf") format('truetype'), 
+   8 |   url("../fonts/remixicon.svg#remixicon") format('svg'); /* iOS 4.1- */
+>  9 | }
+     |  ^
+  10 | [class^="ri-"],
+  11 | [class*=" ri-"] {
+  12 |   font-family: 'remixicon' !important;
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/remixicon.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/remixicon.css:8:4
+Module not found: Can't resolve '../fonts/remixicon.ttf'
+   6 |   url("../fonts/remixicon.woff") format("woff"), 
+   7 |   url("../fonts/remixicon.ttf") format('truetype'), 
+>  8 |   url("../fonts/remixicon.svg#remixicon") format('svg'); /* iOS 4.1- */
+     |    ^
+   9 | }
+  10 | [class^="ri-"],
+  11 | [class*=" ri-"] {
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/remixicon.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/remixicon.css:7:4
+Module not found: Can't resolve '../fonts/remixicon.woff'
+   5 |   url("../fonts/remixicon.woff2") format("woff2"), 
+   6 |   url("../fonts/remixicon.woff") format("woff"), 
+>  7 |   url("../fonts/remixicon.ttf") format('truetype'), 
+     |    ^
+   8 |   url("../fonts/remixicon.svg#remixicon") format('svg'); /* iOS 4.1- */
+   9 | }
+  10 | [class^="ri-"],
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/remixicon.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/remixicon.css:6:4
+Module not found: Can't resolve '../fonts/remixicon.woff2'
+  4 |   src: url("../fonts/remixicon.eot#iefix") format('embedded-opentype'), 
+  5 |   url("../fonts/remixicon.woff2") format("woff2"), 
+> 6 |   url("../fonts/remixicon.woff") format("woff"), 
+    |    ^
+  7 |   url("../fonts/remixicon.ttf") format('truetype'), 
+  8 |   url("../fonts/remixicon.svg#remixicon") format('svg'); /* iOS 4.1- */
+  9 | }
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/remixicon.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:4882:16
+Module not found: Can't resolve '../images/1.png'
+  4880 |   height: 100%;
+  4881 |   background: url("../images/1.png") top center no-repeat;
+> 4882 |   background-size: 100% 100%;
+       |                ^
+  4883 |   position: absolute;
+  4884 |   top: 0;
+  4885 |   left: 0;
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:7217:22
+Module not found: Can't resolve '../images/1_6.jpg'
+  7215 | .sp-banner .bnr-1 {
+  7216 |   background-image: url("../images/1_6.jpg");
+> 7217 |   background-size: cover;
+       |                      ^
+  7218 | }
+  7219 |
+  7220 | .sp-banner .bnr-2 {
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:4895:16
+Module not found: Can't resolve '../images/2.png'
+  4893 |   height: 250px;
+  4894 |   background: url("../images/2.png") top center no-repeat;
+> 4895 |   background-size: 100% 100%;
+       |                ^
+  4896 |   position: absolute;
+  4897 |   bottom: 0;
+  4898 |   left: 50px;
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:7222:22
+Module not found: Can't resolve '../images/2_6.jpg'
+  7220 | .sp-banner .bnr-2 {
+  7221 |   background-image: url("../images/2_6.jpg");
+> 7222 |   background-size: cover;
+       |                      ^
+  7223 | }
+  7224 |
+  7225 | .sp-banner .bnr-3 {
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:4907:16
+Module not found: Can't resolve '../images/3_1.png'
+  4905 |   height: 250px;
+  4906 |   background: url("../images/3_1.png") top center no-repeat;
+> 4907 |   background-size: 100% 100%;
+       |                ^
+  4908 |   position: absolute;
+  4909 |   bottom: 0;
+  4910 |   right: 50px;
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:7227:22
+Module not found: Can't resolve '../images/3_4.jpg'
+  7225 | .sp-banner .bnr-3 {
+  7226 |   background-image: url("../images/3_4.jpg");
+> 7227 |   background-size: cover;
+       |                      ^
+  7228 | }
+  7229 |
+  7230 | .sp-banner .sp-details {
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:3040:22
+Module not found: Can't resolve '../images/4_4.jpg'
+  3038 | .sp-banner-2 .bnr-4 {
+  3039 |   background-image: url("../images/4_4.jpg");
+> 3040 |   background-size: cover;
+       |                      ^
+  3041 | }
+  3042 |
+  3043 | .sp-banner-2 .bnr-5 {
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:3045:22
+Module not found: Can't resolve '../images/5_1.jpg'
+  3043 | .sp-banner-2 .bnr-5 {
+  3044 |   background-image: url("../images/5_1.jpg");
+> 3045 |   background-size: cover;
+       |                      ^
+  3046 | }
+  3047 |
+  3048 | .sp-banner-2 .bnr-6 {
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:3050:22
+Module not found: Can't resolve '../images/6_1.jpg'
+  3048 | .sp-banner-2 .bnr-6 {
+  3049 |   background-image: url("../images/6_1.jpg");
+> 3050 |   background-size: cover;
+       |                      ^
+  3051 | }
+  3052 |
+  3053 | .sp-banner-2 .sp-details {
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:5866:22
+Module not found: Can't resolve '../images/7_1.jpg'
+  5864 | .sp-banner-side .sp-banner-block-side-2 {
+  5865 |   background-image: url(../images/7_1.jpg);
+> 5866 |   background-position: center;
+       |                      ^
+  5867 |   background-size: cover;
+  5868 |   background-repeat: no-repeat;
+  5869 | }
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:3456:22
+Module not found: Can't resolve '../images/shape-1.png'
+  3454 |   z-index: 0;
+  3455 |   background-image: url("../images/shape-1.png");
+> 3456 |   background-size: 500px;
+       |                      ^
+  3457 | }
+  3458 |
+  3459 | .sp-collection-block .collection-detail {
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:122:16
+Module not found: Can't resolve '../images/shape-2.png'
+  120 |   height: 60px;
+  121 |   background: url("../images/shape-2.png") top center no-repeat;
+> 122 |   background-size: 100% 100%;
+      |                ^
+  123 |   position: absolute;
+  124 |   top: 0;
+  125 |   left: 0;
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:2381:16
+Module not found: Can't resolve '../images/shape-2.png'
+  2379 |   height: 50px;
+  2380 |   background: url("../images/shape-2.png") top center no-repeat;
+> 2381 |   background-size: 100% 100%;
+       |                ^
+  2382 |   position: absolute;
+  2383 |   bottom: 0;
+  2384 |   left: 0;
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:2448:22
+Module not found: Can't resolve '../images/shape-2_1.png'
+  2446 |   z-index: 0;
+  2447 |   background-image: url("../images/shape-2_1.png");
+> 2448 |   background-size: 500px;
+       |                      ^
+  2449 | }
+  2450 |
+  2451 | .sp-hero-2 .sp-hero-details {
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:3648:22
+Module not found: Can't resolve '../images/shape-2_1.png'
+  3646 |   z-index: 0;
+  3647 |   background-image: url("../images/shape-2_1.png");
+> 3648 |   background-size: 500px;
+       |                      ^
+  3649 | }
+  3650 |
+  3651 | .sp-deal-2 .deal-box .deal-detail {
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:3234:22
+Module not found: Can't resolve '../images/shape-3.png'
+  3232 |   background-color: rgba(255, 255, 255, 0.2);
+  3233 |   background-image: url("../images/shape-3.png");
+> 3234 |   background-repeat: repeat;
+       |                      ^
+  3235 |   backdrop-filter: blur(4px);
+  3236 |   z-index: 17;
+  3237 | }
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:4015:22
+Module not found: Can't resolve '../images/shape-3.png'
+  4013 |   background-color: rgba(255, 255, 255, 0.3);
+  4014 |   background-image: url("../images/shape-3.png");
+> 4015 |   background-repeat: repeat;
+       |                      ^
+  4016 |   backdrop-filter: blur(4px);
+  4017 |   z-index: 17;
+  4018 | }
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:4555:22
+Module not found: Can't resolve '../images/shape-3.png'
+  4553 |   background-color: rgba(255, 255, 255, 0.3);
+  4554 |   background-image: url("../images/shape-3.png");
+> 4555 |   background-repeat: repeat;
+       |                      ^
+  4556 |   backdrop-filter: blur(4px);
+  4557 |   z-index: 17;
+  4558 | }
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:5588:22
+Module not found: Can't resolve '../images/shape-3.png'
+  5586 |   background-color: rgba(255, 255, 255, 0.3);
+  5587 |   background-image: url("../images/shape-3.png");
+> 5588 |   background-repeat: repeat;
+       |                      ^
+  5589 |   backdrop-filter: blur(4px);
+  5590 |   position: fixed;
+  5591 |   top: 0;
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:6388:22
+Module not found: Can't resolve '../images/shape-3.png'
+  6386 |   background-color: rgba(255, 255, 255, 0.3);
+  6387 |   background-image: url("../images/shape-3.png");
+> 6388 |   background-repeat: repeat;
+       |                      ^
+  6389 |   backdrop-filter: blur(4px);
+  6390 |   z-index: 16;
+  6391 | }
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:3498:16
+Module not found: Can't resolve '../images/shape.png'
+  3496 |   height: 60px;
+  3497 |   background: url("../images/shape.png") top center no-repeat;
+> 3498 |   background-size: 100% 100%;
+       |                ^
+  3499 |   position: absolute;
+  3500 |   top: 0;
+  3501 |   left: 0;
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:2716:22
+Module not found: Can't resolve '../images/shape_1.png'
+  2714 |   left: -15px;
+  2715 |   background-image: url("../images/shape_1.png");
+> 2716 |   background-repeat: no-repeat;
+       |                      ^
+  2717 | }
+  2718 |
+  2719 | .sp-about-2 .sp-img-box .sp-detail .sp-shap:before {
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:2727:22
+Module not found: Can't resolve '../images/shape_1.png'
+  2725 |   left: 70px;
+  2726 |   background-image: url("../images/shape_1.png");
+> 2727 |   background-repeat: no-repeat;
+       |                      ^
+  2728 | }
+  2729 |
+  2730 | .sp-about-2 .sp-img-box .sp-detail .sp-shap img {
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:8231:22
+Module not found: Can't resolve '../images/shape_1.png'
+  8229 |   left: -15px;
+  8230 |   background-image: url("../images/shape_1.png");
+> 8231 |   background-repeat: no-repeat;
+       |                      ^
+  8232 | }
+  8233 |
+  8234 | .sp-about .sp-img-box .sp-detail .sp-shap:before {
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:8242:22
+Module not found: Can't resolve '../images/shape_1.png'
+  8240 |   left: 70px;
+  8241 |   background-image: url("../images/shape_1.png");
+> 8242 |   background-repeat: no-repeat;
+       |                      ^
+  8243 | }
+  8244 |
+  8245 | .sp-about .sp-img-box .sp-detail .sp-shap img,
+
+
+
+Import trace:
+  Client Component Browser:
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/globals.css [Client Component Browser]
+    ./Documents/crawlerwebsite/sprazo-nextjs/src/app/layout.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:4074:22)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:7421:22)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:1693:11)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:2752:11)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:3241:11)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:4022:11)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:4562:11)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:5599:11)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:6395:11)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:66:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:132:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:52:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:118:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:59:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:125:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:17:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:83:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:24:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:90:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:38:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:104:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:31:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:97:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:45:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:111:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:10:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:76:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:102:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:168:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:74:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:140:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:88:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:154:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:81:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:147:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:95:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:161:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/remixicon.css:4:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/remixicon.css:5:9)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/remixicon.css:9:4)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/remixicon.css:8:4)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/remixicon.css:7:4)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/remixicon.css:6:4)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:4882:16)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:7217:22)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:4895:16)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:7222:22)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:4907:16)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:7227:22)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:3040:22)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:3045:22)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:3050:22)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:5866:22)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:3456:22)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:122:16)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:2381:16)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:2448:22)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:3648:22)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:3234:22)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:4015:22)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:4555:22)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:5588:22)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:6388:22)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:3498:16)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:2716:22)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/demo-2.css:2727:22)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:8231:22)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./Documents/crawlerwebsite/sprazo-nextjs/src/styles/style.css:8242:22)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
