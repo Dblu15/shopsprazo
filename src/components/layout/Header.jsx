@@ -17,7 +17,7 @@ export default function Header() {
     const [searchCategory, setSearchCategory] = useState("vegetables");
 
     const { totalItems, setIsCartOpen } = useCart();
-    const { count: wishCount } = useWishlist();
+    const { items: wishItems, count: wishCount, removeItem: removeWishlistItem } = useWishlist();
 
     return (
         <header className="sp-header-2 sticky-nav">
@@ -163,19 +163,39 @@ export default function Header() {
                                                 <div className={`sp-dropdown-menu sp-wish-items ${wishDropdown ? "show" : ""}`}>
                                                     <div className="sp-wish-info">
                                                         <ul className="sp-list-block">
-                                                            <li className="wish-sidebar-list sp-list">
-                                                                <a href="#!" className="wish-remove-item"><i className="ri-close-line"></i></a>
-                                                                <a href="#!" className="sp-wish-pro-img">
-                                                                    <img src="/images/36.jpg" alt="product-img-1" />
-                                                                </a>
-                                                                <div className="sp-wish-contact">
-                                                                    <Link href="/product/1" className="sp-wish-sub-title">leather purse for women</Link>
-                                                                    <span className="wish-price">
-                                                                        <span className="new-price">$264</span> x 1
-                                                                        <span className="stock red">- 1 in Stock</span>
-                                                                    </span>
-                                                                </div>
-                                                            </li>
+                                                            {wishItems.length === 0 ? (
+                                                                <li className="wish-sidebar-list sp-list">
+                                                                    <div className="sp-wish-contact">
+                                                                        <span className="sp-wish-sub-title">Wishlist đang trống</span>
+                                                                        <span className="wish-price">Hãy thêm sản phẩm yêu thích của bạn.</span>
+                                                                    </div>
+                                                                </li>
+                                                            ) : (
+                                                                wishItems.slice(0, 4).map((item) => (
+                                                                    <li key={item.id} className="wish-sidebar-list sp-list">
+                                                                        <a
+                                                                            href="#!"
+                                                                            className="wish-remove-item"
+                                                                            onClick={(e) => {
+                                                                                e.preventDefault();
+                                                                                removeWishlistItem(item.id);
+                                                                            }}
+                                                                        >
+                                                                            <i className="ri-close-line"></i>
+                                                                        </a>
+                                                                        <Link href={`/product/${item.id}`} className="sp-wish-pro-img">
+                                                                            <img src={item.image || "/images/product-placeholder.jpg"} alt={item.name} />
+                                                                        </Link>
+                                                                        <div className="sp-wish-contact">
+                                                                            <Link href={`/product/${item.id}`} className="sp-wish-sub-title">{item.name}</Link>
+                                                                            <span className="wish-price">
+                                                                                <span className="new-price">${typeof item.price === "number" ? item.price.toFixed(2) : item.price}</span> x 1
+                                                                                <span className="stock red">- In Wishlist</span>
+                                                                            </span>
+                                                                        </div>
+                                                                    </li>
+                                                                ))
+                                                            )}
                                                         </ul>
                                                     </div>
                                                     <div className="wish-sidebar-list btn">
@@ -393,9 +413,7 @@ export default function Header() {
             </div>
 
             {/* Mobile Menu rendered within Header so it gets the `.sp-header-2 .sp-mobile-menu` CSS scopes */}
-            <div className="sp-header">
-                <MobileMenu isOpen={mobileMenuOpen} onClose={() => setMobileMenuOpen(false)} />
-            </div>
+            <MobileMenu isOpen={mobileMenuOpen} onClose={() => setMobileMenuOpen(false)} />
         </header>
     );
 }
